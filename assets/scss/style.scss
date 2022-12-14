@@ -1,0 +1,566 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+$red: #FE202D;
+
+//-------------------------------------Importaciones-------------------------------------//
+@import '../bootstrap-5.2.2/scss/bootstrap.scss';
+
+//-------------------------------------ALDO-------------------------------------//
+.nav-bar {
+    background-color: #000000;
+}
+.align-code {
+    align-items: center;
+}
+.centrar-el-texto {
+    text-align: center;
+}
+.margin-90 {
+    margin-bottom: 90px;
+}
+.oscuro {
+    background-color: #000000;
+}
+.navbar-toggler {
+    border: none;
+}
+.btn{
+    background-color: red;
+    border: none;
+}
+.separador {
+    margin: 75px 0;
+}
+.boton-responsive {
+    display: none;
+}
+main {
+    .boton-moda{
+        background-color: $red;
+        border: none;
+        border-radius: 30px;
+        padding-left: 175px;
+        padding-right: 175px;
+        p{
+            color: white;
+        }
+    }
+    .moda-todos{
+        font-weight: 800;
+        font-size: 26px;
+    }
+    .fa-gift{
+        color: white;
+    }
+    .icon {
+        width: 20px;
+    }
+    .texto-align {
+        text-align: center;
+        color: black;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    hr{
+        border-color: black;
+    }
+    .boton-ver-mas{
+        background-color: $red;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 75px;
+        font-size: 26px;
+        color: #ffffff;
+        font-weight: 700;
+    }
+    .busquedas{
+        text-decoration: none;
+        color: white;
+    }
+    .margen-2a {
+        margin: 70px 0;
+    }
+    .margen-up {
+        margin-top: 80px;
+    }
+    .up-mr {
+        margin-top:px;
+    }
+
+}
+
+//-------------------------------------Busqueda-------------------------------------//
+section {
+    .seccion-filtro {
+        border: 1px solid black;
+        border-radius: 10px;
+        height: 1400px;
+    }
+    .xd {
+        width: 240px;
+        height: 280px;
+    }
+    .name-producto {
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .precio-producto {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .precio-producto-2 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .descuento-precio {
+        background-color: #FE202D;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 1px 10px;
+        border: none;
+        border-radius: 10px;
+    }
+    .descuento-precio-2 {
+        background-color: #FE202D;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 1px 10px;
+        border: none;
+        border-radius: 10px;
+    }
+    .tachado {
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: line-through;
+        color: #707070;
+    }
+    .navegacion {
+        text-align: center;
+    }
+    .cositas {
+        width: 240px;
+        height: 280px;
+    }
+    .lol{
+        width: 240px;
+        height: 280px;
+    }
+}
+
+//-------------------------------------Productos-------------------------------------//
+section {
+  .img-vista {
+    width: 120px;
+  }
+  .talla {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 4px 7px;
+    background-color: #ffffff;
+  }
+  .despacho-1 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .despacho-2 {
+    font-size: 18px;
+    opacity: 60%;
+    text-decoration: underline;
+  }
+  .wish-stock {
+    border: none;
+    border-radius: 45px;
+    padding: 6px 9px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FF1B39;
+    color: #ffffff;
+  }
+  .centro-img {
+    text-align: center;
+  }
+  .texto-centro {
+    text-align: center;
+  }
+}
+
+//-------------------------------------Tiendas-------------------------------------//
+section {
+    .anuncio {
+    background-color: #FE202D;
+        h1 {
+            font-size: 30px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #ffffff;
+            padding: 10px 0;
+        }
+    }
+    .title-shops {
+        font-size: 28px;
+        font-weight: 700;
+        margin: 90px 0;
+    }
+    .ciudades{
+        text-align:center;
+        display:block;
+        position: relative;
+    }
+}
+
+//-------------------------------------Nosotros-------------------------------------//
+section {
+    .title-us {
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .parraf-us {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .aldo-wh {
+        width: 674px;
+        height: 437px;
+    }
+    .right-us {
+        text-align: right;
+    }
+    .center-us {
+        text-align: center;
+    }
+}
+
+//-------------------------------------Carrito-------------------------------------//
+section {
+    .resumen-carrito {
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .webpay {
+        width: 68px;
+        height: 41px;
+    }
+    .titulo-carrito{
+        font-size: 26px;
+        font-weight: 800;
+    }
+    .aldom{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .que-es{
+        font-size: 23px;
+        font-weight: 800;
+    }
+    .codigo4{
+        font-size: 16px;
+    }
+    .cuarentak{
+        font-size: 23px;
+        font-weight: 800;
+    }
+    .borrar{
+        font-size: 16px;
+        color: red;
+        text-decoration: none;
+    }
+    .envio-domicilio{
+        color: #7F7F7F;
+    }
+    .margin-carri {
+        margin-bottom: 90px;
+    }
+}
+//-------------------------------------Footer-------------------------------------//
+footer{
+    .background-gray{
+        background-color: #F3F3F3;
+    }
+    .redes-col{
+        margin-left: 900px;
+    }
+    .redes{
+        list-style: none;
+        h3{
+            font-size: 20px;
+            font-weight: 700;
+        }
+        li{
+            font-size: 26px;
+        }
+    }
+    .nosotros-1{
+        list-style: none;
+        li{
+            font-size: 16px;
+        }
+    }
+    .subtitulos{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    h4{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+//-------------------Responsive-------------------//
+
+//Home--------------------------------------------------------------------------------->
+
+@media screen and(max-width: 992px) {
+    section {
+        .banner-home {
+            margin-bottom: 20px;
+        }
+        .moda-todos {
+            font-size: 16px;
+        }
+        .boton-moda {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .mini-text {
+            font-size: 15px;
+        }
+        .margen-2a {
+            margin: 30px 0;
+        }
+        .margen-up {
+            margin-top: 50px;
+        }
+    }
+}
+@media screen and(max-width: 778px) {
+    section {
+        .boton-ver-mas {
+            font-size: 16px;
+            padding: 5px 30px;
+        }
+    }
+}
+
+//Busqueda------------------------------------------------------------------------------->
+@media screen and(max-width: 1200px) {
+    section {
+        .lol {
+            width: 200px;
+            height: 220px;
+        }
+    }
+}
+@media screen and(max-width: 992px) {
+    section {
+        .descuento-precio-2 {
+            display: none;
+        }
+    }
+}
+@media screen and(max-width: 992px) {
+    section {
+        .lol {
+            width: 150px;
+            height: 170px;
+        }
+        .seccion-filtro {
+            height: 1600px;
+        }
+    }
+}
+@media screen and(max-width: 768px) {
+    section {
+        .boton-responsive {
+            display: block;
+            margin-bottom: 40px;
+        }
+        .seccion-filtro {
+            display: none;
+        }
+        
+    }
+}
+@media screen and(max-width: 515px) {
+    section{
+        .lol{
+            width: 130px;
+            height: 150px;
+        }
+    }
+}
+
+
+//Producto------------------------------------------------------------------------------->
+@media screen and(max-width: 992px) {
+    section {
+        .producto-margen {
+            margin-bottom: 50px;
+        }
+    }
+    .aside {
+        display: none;
+    }
+
+}
+@media screen and(max-width: 1200px) {
+    section {
+        .xd {
+            width: 200px;
+            height: 240px;
+        }
+        .descuento-precio {
+            margin-left: 20px;
+        }
+        .name-producto {
+            font-size: 16px;
+        }
+        .precio-producto {
+            font-size: 20px;
+        }
+    }
+}
+@media screen and(max-width: 992px) {
+    section {
+        .xd {
+            width: 160px;
+            height: 200px;
+        }
+    }
+}
+@media screen and(max-width: 768px) {
+    main {
+        .icon {
+            width: 10px;
+        }
+    }
+}
+@media screen and(max-width: 505px) {
+    section {
+        .wish-stock {
+            font-size: 18px;
+            padding: 4px 6px;
+        }
+    }
+}
+
+//Tiendas-------------------------------------------------------------------------------> (listo)
+@media screen and(max-width: 1390px) {
+    section {
+        .shop-img {
+            width: 1100px;
+        }
+    }
+}
+@media screen and(max-width: 1230px) {
+    section {
+        .shop-img {
+            width: 950px;
+        }
+    }
+}
+@media screen and(max-width: 980px) {
+    section {
+        .shop-img {
+            width: 800px;
+        }
+    }
+}
+@media screen and(max-width: 850px) {
+    section {
+        .shop-img {
+            width: 600px;
+        }
+        .title-shops {
+            margin: 50px 0;
+            font-size: 20px;
+        }
+        .anuncio {
+            .acerca-navidad {
+            font-size: 22px;
+            }
+        }
+        
+    }
+}
+@media screen and(max-width: 630px) {
+    section {
+        .shop-img {
+            width: 420px;
+        }
+        .anuncio {
+            .acerca-navidad {
+            font-size: 20px;
+            }
+        }
+    }
+}
+@media screen and(max-width: 560px) {
+    section {
+        .anuncio {
+            .acerca-navidad {
+            font-size: 15px;
+            }
+        }
+    }
+}
+
+//Nosotros-------------------------------------------------------------------------------> (listo)
+@media screen and(max-width: 1200px) {
+    section {
+        .title-us {
+            font-size: 20px;
+        }
+        .parraf-us {
+            font-size: 16px;
+        }
+    }
+}
+@media screen and(max-width: 992px) {
+    section {
+        .us-margin {
+            margin-bottom: 70px;
+        }
+        .parraf-us {
+            text-align: center;
+        }
+    }
+}
+
+//Carrito-------------------------------------------------------------------------------> (listo)
+@media screen and(max-width: 992px) {
+    section {
+        .margin-carri {
+            margin-bottom: 10px;
+        }
+    }
+}
+@media screen and(max-width: 770px) {
+    section {
+        .aldom {
+            font-size: 18px;
+        }
+        .que-es {
+            font-size: 20px;
+        }
+        .cuarentak {
+            font-size: 20px;
+        }
+        .codigo4 {
+            font-size: 14px;
+        }
+        .titulo-carrito {
+            font-size: 24px;
+        }
+    }
+}
